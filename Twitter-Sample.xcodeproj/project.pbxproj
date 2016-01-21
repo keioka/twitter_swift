@@ -14,6 +14,8 @@
 		DC54FB301C500AC400BB90C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC54FB2F1C500AC400BB90C2 /* Images.xcassets */; };
 		DC54FB331C500AC400BB90C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC54FB311C500AC400BB90C2 /* LaunchScreen.xib */; };
 		DC54FB3F1C500AC400BB90C2 /* Twitter_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54FB3E1C500AC400BB90C2 /* Twitter_SampleTests.swift */; };
+		DC54FB491C502B5500BB90C2 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54FB481C502B5500BB90C2 /* TimelineViewController.swift */; };
+		DC54FB4B1C5068CB00BB90C2 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54FB4A1C5068CB00BB90C2 /* TableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		DC54FB381C500AC400BB90C2 /* Twitter-SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Twitter-SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC54FB3D1C500AC400BB90C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC54FB3E1C500AC400BB90C2 /* Twitter_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twitter_SampleTests.swift; sourceTree = "<group>"; };
+		DC54FB481C502B5500BB90C2 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		DC54FB4A1C5068CB00BB90C2 /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				DC54FB311C500AC400BB90C2 /* LaunchScreen.xib */,
 				DC54FB271C500AC400BB90C2 /* Twitter_Sample.xcdatamodeld */,
 				DC54FB231C500AC400BB90C2 /* Supporting Files */,
+				DC54FB481C502B5500BB90C2 /* TimelineViewController.swift */,
+				DC54FB4A1C5068CB00BB90C2 /* TableCell.swift */,
 			);
 			path = "Twitter-Sample";
 			sourceTree = "<group>";
@@ -215,7 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC54FB4B1C5068CB00BB90C2 /* TableCell.swift in Sources */,
 				DC54FB2B1C500AC400BB90C2 /* ViewController.swift in Sources */,
+				DC54FB491C502B5500BB90C2 /* TimelineViewController.swift in Sources */,
 				DC54FB261C500AC400BB90C2 /* AppDelegate.swift in Sources */,
 				DC54FB291C500AC400BB90C2 /* Twitter_Sample.xcdatamodeld in Sources */,
 			);
